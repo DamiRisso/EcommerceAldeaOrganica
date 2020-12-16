@@ -1,0 +1,20 @@
+[
+    {
+    "direccion":"Aguirre 640",
+    "nombre":"Dietetica Akunai",
+    "barrio":"Villa Crespo",
+    "id":"01"
+    },
+    {
+    "direccion":"Martinez Rozas 1037",
+    "nombre":"Aldea Organica",
+    "barrio":"Villa Crespo",
+    "id":"02"
+    },
+    {
+    "direccion":"Bartolome Mitre 4200",
+    "nombre":"Punto Cercano",
+    "barrio":"Almagro",
+    "id":"03"
+    }
+]

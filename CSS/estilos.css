@@ -1,0 +1,194 @@
+header {
+	/*background-color: orange;*/
+	background: rgb(255,165,0);
+background: linear-gradient(112deg, rgba(255,165,0,1) 23%, rgba(255,230,169,1) 63%);
+	padding: 8%;
+}
+
+.titulo {
+	margin: 0.5%;
+	color: white;
+}
+
+#contenedorFrase {
+	width: 35rem;
+	height: 3rem;
+	margin-top: 50px;
+	margin-bottom: 50px;;
+	position: relative;
+}
+
+.frase {
+	font-style: italic;
+	color: rgb(68, 68, 68);
+}
+
+.autor {
+	color: rgb(56, 56, 56);
+}
+.carrito {
+	background-color: orange;
+	border-radius: 3rem;
+	padding: 1.2rem;
+
+	width: 8rem;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 1;
+}
+
+#numeroCarrito {
+	font-size: 2rem;
+	display: inline;
+}
+.fa-shopping-cart {
+	color: white;
+	font-size: 3rem;
+}
+
+.contenedor-categorias {
+	padding: 1.5rem 0.2rem 1.5rem 1.5rem;
+	width: 25%;
+	background-color: #699c78;
+	border-radius: 0px 10px 10px 0px;
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	left: -20%;
+	z-index: 1;
+	box-shadow: 5px 5px 10px rgba(61, 61, 61, 0.7);
+	align-items: center;
+}
+
+.contenedor-categorias .flecha {
+	flex: 20%;
+
+}
+.fa-arrow-alt-circle-right {
+	font-size: 1.2rem;
+	color: white;
+}
+.contenedor-categorias .botones {
+	flex: 80%;
+}
+.contenedor-categorias:hover {
+	left: 0%;
+}
+.contenedor-categorias input {
+	display: block;
+}
+#contenedor-productos {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.card {
+	margin: 15px;
+	background-color:#699c78;
+	display: inline-block;
+	box-shadow: 7px 7px 15px #888888;
+}
+.list-group-item {
+	background-color: #699c78;
+}
+
+
+.card-title, .card-text {
+	color: white;
+}
+
+.input {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+#contenedor-formulario {
+	padding: 1% 2%;
+	background-color: orange;
+
+}
+/*La tabla que contiene los nodos:*/
+#tablaNodos {
+	width: 60%;
+	
+}
+
+.btn-primary {
+	height: 3.6rem;
+}
+
+.form-check {
+	margin: 1%;
+}
+
+.finalizarCompra {
+	margin: 2%;
+}
+
+#contenedorCostoFinal {
+	background-color: #12ADB3;
+	
+	padding: 5%;
+	width: 75%;
+	border-radius: 1rem;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	display: none;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 0px solid #dee2e6;
+}
+
+#costoFinal {
+	color: white;
+	font-size: 2.5rem;
+	text-align: center;
+	font-weight: bold;
+}
+
+#listaCompra {
+	color: white;
+	font-size: 1.2rem;
+}
+#listaCompra li {
+	color: white;
+	margin: 0.5%;
+}
+
+#tituloFormulario {
+	color: white; 
+	font-size: 1.5rem;
+}
+
+.textoFormulario {
+	color: white;
+	font-size: 1.1rem;
+}
+
+#direccion {
+	margin: 1%;
+}
+
+#precioContenedor {
+background-color: #12ADB3;  /* fallback for old browsers */
+	padding: 1%;
+	border-radius: 1.5rem;
+}
+
+#cont-lugar-envio {
+	display: none;
+	margin-top: 2%;
+}
+
+#cont-horario-retiro {
+	display: none;
+	margin-top: 2%;
+}

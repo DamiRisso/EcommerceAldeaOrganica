@@ -1,0 +1,33 @@
+[
+  {
+    "frase": "'Vive sencillamente para que otros puedan sencillamente vivir.'",
+    "autor": "Mahatma Gandhi",
+    "tema": "Materialismo",
+    "id": 1
+  },
+  {
+    "frase": "'En la naturaleza está la preservación del mundo.'",
+    "autor": "Henry Thoreau",
+    "tema": "Ecologia",
+    "id": 2
+  },
+  {
+    "frase": "'Venimos hace muchísimos años intentando llamar la atención a la humanidad, de que no es posible la humanidad si no tenemos una nueva relación con la Madre Naturaleza.'",
+    "autor": "Rigoberta Menchú Tum -líder indígena guatemalteca-",
+    "tema": "Ecologia",
+    "id": 3
+  },
+  {
+    "frase": "'Si la gente está preparada para comer localmente y estacionalmente, entonces harán bastante bien en términos de impacto ambiental.'",
+    "autor": "Peter Singer -Escritor-",
+    "tema": "Ecologia",
+    "id": 4
+  },
+  {
+    "frase": "'No puedes pasar un solo día en la tierra sin tener un impacto en el mundo. Lo que haces marca una diferencia, y tienes que decidir qué tipo de diferencia quieres hacer.'",
+    "autor": "Jane Goodall -Antropologa-",
+    "tema": "Ecologia",
+    "id": 5
+  }
+  
+]
